@@ -30,7 +30,7 @@ jobs:
         with:
           tag_name: v${{ steps.get_version.outputs.VERSION }}
           name: Release v${{ steps.get_version.outputs.VERSION }}
-          files: bulk-import.xpi
+          files: bulk-importer.xpi
           draft: false
           prerelease: false
           generate_release_notes: true
