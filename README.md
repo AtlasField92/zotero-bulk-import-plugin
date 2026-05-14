@@ -65,7 +65,7 @@ To test in development mode without creating an XPI:
 
 1. Close Zotero
 2. In the [Zotero profile directory](https://www.zotero.org/support/kb/profile_directory), open the `extensions/` folder
-3. Create a file named `bulk-importer@atlasfield` (without extension) containing the absolute path to this directory, for example:
+3. Create a file named `bulk-importer@atlasfield92` (without extension) containing the absolute path to this directory, for example:
    ```
    /Users/atlasfield92/zotero_bulk_importer_extension
    ```
