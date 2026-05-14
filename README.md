@@ -38,7 +38,7 @@ chmod +x build.sh
 ./build.sh
 ```
 
-The `bulk-import.xpi` file will be created in the project directory.
+The `bulk-importer.xpi` file will be created in the project directory.
 
 ### 2. Install in Zotero
 
@@ -46,7 +46,7 @@ The `bulk-import.xpi` file will be created in the project directory.
 2. `Tools → Add-ons`
 3. Click the ⚙ icon in the top right
 4. Choose **"Install Add-on From File…"**
-5. Select `bulk-import.xpi`
+5. Select `bulk-importer.xpi`
 6. Restart Zotero if prompted
 
 ### 3. Use the plugin
@@ -65,9 +65,9 @@ To test in development mode without creating an XPI:
 
 1. Close Zotero
 2. In the [Zotero profile directory](https://www.zotero.org/support/kb/profile_directory), open the `extensions/` folder
-3. Create a file named `bulk-import@atlasfield` (without extension) containing the absolute path to this directory, for example:
+3. Create a file named `bulk-importer@atlasfield` (without extension) containing the absolute path to this directory, for example:
    ```
-   /Users/atlasfield/IdeaProjects/zotero_bulk_import_extension
+   /Users/atlasfield92/zotero_bulk_importer_extension
    ```
 4. In `prefs.js` (same profile directory), delete the lines `extensions.lastAppBuildId` and `extensions.lastAppVersion`
 5. Restart Zotero — the plugin will be loaded automatically
