@@ -1,10 +1,10 @@
 {
   "addons": {
-    "bulk-import-v2@atlasfield.com": {
+    "bulk-importer@atlasfield92": {
       "updates": [
         {
           "version": "1.0.0",
-          "update_link": "https://github.com/atlasfield/zotero-bulk-import/releases/download/v1.0.0/bulk-import.xpi"
+          "update_link": "https://github.com/AtlasField92/zotero-bulk-import-plugin/releases/download/v1.0.0/bulk-importer.xpi"
         }
       ]
     }
