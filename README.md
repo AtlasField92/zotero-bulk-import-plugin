@@ -8,7 +8,7 @@ A Zotero plugin for bulk importing scientific references from a `.txt` file cont
 
 - 📋 **Target collection**: selection via a hierarchical dropdown (libraries + collections + sub-collections)
 - 📂 **File picker**: open a `.txt` file via the native file explorer
-- ⏱ **Configurable delay** between requests (default: 3 s)
+- ⏱ **Configurable delay** between requests (default: 5 s)
 - 📊 **Progress bar** + real-time log
 - ✋ **Stop button** to cleanly interrupt the import
 - 🔄 **Fallback**: if no Zotero translator is available, the webpage is saved as is
