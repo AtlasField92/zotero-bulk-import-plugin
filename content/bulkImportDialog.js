@@ -74,7 +74,7 @@ var BulkImportDialog = {
 
   browseFile() {
     var fp = Cc["@mozilla.org/filepicker;1"].createInstance(Ci.nsIFilePicker);
-    fp.init(window, "Select URL file", Ci.nsIFilePicker.modeOpen);
+    fp.init(window.browsingContext || window, "Select URL file", Ci.nsIFilePicker.modeOpen);
     fp.appendFilter("Text files (*.txt)", "*.txt");
     fp.open(rv => {
       if (rv === Ci.nsIFilePicker.returnOK) {
