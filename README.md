@@ -2,6 +2,10 @@
 
 A Zotero plugin for bulk importing scientific references from a `.txt` file containing a list of URLs, while retrieving metadata via Zotero translators (just like the browser extension).
 
+[Official website](https://atlasfield92.github.io/zotero-bulk-importer/)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-yellow)](https://buymeacoffee.com/atlasfield92)
+
 ---
 
 ## Features
